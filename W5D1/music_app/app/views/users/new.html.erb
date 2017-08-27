@@ -1,0 +1,11 @@
+New User:
+<form action="<%= users_url %>" method="post">
+  <%= csrf_counter %>
+  <label for="email">Email:</label>
+  <input id="email" type="text" name="user[email]" value="">
+
+  <label for="password">Password:</label>
+  <input id="password" type="password" name="user[password]" value="">
+
+  <input type="submit" name="" value="Register!">
+</form>
